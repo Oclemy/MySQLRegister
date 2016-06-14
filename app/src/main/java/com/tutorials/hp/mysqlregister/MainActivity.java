@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
 //PHP SCRIPT URL
     final static String urlAddress="http://10.0.2.2/android/users.php";
+    //EDITTEXTS
     EditText fullnameTxt,usernameTxt,emailTxt,passwdTxt,confirmPwdTxt;
 
     @Override
