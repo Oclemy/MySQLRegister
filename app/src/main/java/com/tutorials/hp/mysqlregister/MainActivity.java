@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 
+
         fullnameTxt= (EditText) findViewById(R.id.fullnameEditTxt);
         usernameTxt= (EditText) findViewById(R.id.usernameEditTxt);
         emailTxt= (EditText) findViewById(R.id.emailEditTxt);
@@ -48,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                  String password=passwdTxt.getText().toString();
                  String confirmPwd=confirmPwdTxt.getText().toString();
 
+//BASIC VALIDATION
                 if((fullname.length()<=0 || fullname==null)  || (username.length()<=0|| username==null) || (email.length()<=0||email==null) ||( password.length()<=0 || password==null))
                 {
                     Toast.makeText(MainActivity.this,"Please Enter all data correctly",Toast.LENGTH_SHORT).show();
